@@ -21,7 +21,7 @@ struct ContentView: View {
                 }
                 .toolbar{
                     NavigationLink(destination: page1()){
-                        Text("Next ->")
+                        Text("Next  ->")
                             .font(.custom("RobotoMono-Regular", size: 20))
                             .foregroundColor(Color.black)
                     }
